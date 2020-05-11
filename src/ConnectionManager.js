@@ -9,7 +9,7 @@ var emitter = new EventEmitter();
 function setupConnection(conn) {
   conn.onReady(function() {  // pass same callback for host & client onReady
     connection = conn;  // TODO: why this shallow copy?
-    emitter.emit('status');
+    emitter.emit('status');  // 
   });
  
   conn.onMessage(function(msg) { // pass same callback for host & client onMessage

@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "babelify": "^10.0.0",
+    "buffer": "^5.6.0",
     "create-react-class": "^15.6.3",
     "events": "^3.1.0",
     "open-easyrtc": "^2.0.5",
@@ -40,5 +41,3 @@
     ]
   }
 }
-
-
